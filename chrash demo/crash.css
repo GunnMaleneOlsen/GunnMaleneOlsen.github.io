@@ -1,0 +1,75 @@
+
+#b1,#b2 {
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    border: solid green 2px;
+}
+
+#hus1,#hus2,#hus3,#hus4 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: solid coral 20px;
+    background: lightblue;
+
+}
+
+
+#b1 { right: 280px; bottom: 20px; }
+#b2 { left:280px; top: 20px; }
+#hus1 { left: 10px; top:20px; }
+#hus2 { left: 10px; bottom: 20px; }
+#hus3 { right: 10px; top: 20px; }
+#hus4 { right: 10px; bottom: 20px } 
+
+#b1 {
+    background: url("bil.png");
+    background-size: contain;
+    animation: kjor 2s linear forwards, sving 0.5s 0.4s linear forwards;
+
+}
+
+#b2 {
+    background: url("bil.png");
+    background-size: contain;
+    animation: kjor2 2s linear forwards;
+}
+
+#explo {
+    background: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 180px;
+    top: 30%;
+    background: url("fire.gif");
+    background-size: contain;
+    animation: exp 2s linear forwards;
+    background: single;
+    
+}
+
+@keyframes exp {
+    0% { opacity: 0;}
+    99% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+@keyframes kjor {
+    0% { right: 260px; bottom: 20px; opacity: 1;}
+    30% { right: 260px; bottom: 50%; opacity: 1;}
+    99% { right: 70%; bottom: 50%; opacity: 1;}
+    100% {right: 70%; bottom: 50%; opacity: 0;}
+}
+
+@keyframes sving {
+    0% { transform: rotate(0deg);}
+    100% {transform: rotate(-90deg);}
+}
+
+@keyframes kjor2 {
+    0% { left: 260px; top: 20px; opacity: 1;}
+    99% { left: 260px; top: 40%; opacity: 1;}
+    100% {left: 70%; top: 50%; opacity: 0;}
+}

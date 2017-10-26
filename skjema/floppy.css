@@ -1,0 +1,72 @@
+#main {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    border: 2px solid royalblue;
+    margin: 5%;
+    background-image: url("mountain.jpg");
+    background-size: fill;
+    /* background-repeat: no-repeat; */
+    background-repeat: repeat-x;
+    animation: bevegelse 7s linear infinite;
+    overflow: hidden;
+    
+
+   
+
+
+}
+
+@keyframes bevegelse {
+    0% { background-position: 0; }
+    100% { background-position: 100%; }
+}
+
+#bird {
+    width: 10%;
+    height: 10%;
+    left: 255px;
+    top: 255px;
+    background-image: url("flappy.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: 59ms;
+
+}
+
+#poeng {
+
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 50px;
+    height: 20px;
+    color: blueviolet;
+    font-size: 1.2em;
+
+}
+
+#b1,#b2 {
+    position: absolute;
+    background: coral;
+    animation: sbevegelse 3s linear infinite;
+    width: 50px;
+    height: 130px;
+    left: 650px;
+    top: 0px;
+
+
+}
+
+#b1 {
+    top:470px;
+
+
+}
+
+@keyframes sbevegelse {
+    0% { left: 650px;}
+    100% {left: -50px}
+    
+}

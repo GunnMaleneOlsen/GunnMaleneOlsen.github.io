@@ -1,0 +1,23 @@
+#a1 {
+    position: absolute;
+    top:20%;
+    left: 15%;
+    background: lightblue;
+    width: 25%;
+    height: 60%;
+    border: 2px solid lightcoral;
+    color: darkgoldenrod;
+
+
+    
+}
+#a2 {
+    position: absolute; 
+    top:20%;
+    right: 15%;
+    width: 25%;
+    height: 60%;
+    background: lightgreen;
+    color: darkgoldenrod;
+    border: 3px solid lightcoral;
+}
