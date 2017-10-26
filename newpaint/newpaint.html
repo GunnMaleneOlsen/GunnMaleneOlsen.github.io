@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="canvas.css">
-<script src="canvas.js"></script>
-</head>
-<body>
-<div id="main">
-</div>
 
-<script>
-setup();
-</script>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="newpaint.css">
+    <script src="newpaint.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <input id="size" type="number">
+        <input id="color" type="color">
+        <canvas id="tegning" width="500" height="500"></canvas>
+        <div id="rektangel">Rektangel</div>
+        <div id="trekant">Trekant</div>
+        <div id="sirkel">Sirkel</div>
+        <div id="visk">Visk</div>
+
+    </div>
+
+    <script>
+        setup();
+    </script>
 </body>
+
 </html>
