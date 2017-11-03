@@ -1,3 +1,10 @@
+#main{
+  background-size: 960px 900px;
+  background-image: url("dirt.jpg");
+  background-position: relative;
+  background-repeat: ;
+  
+}
 .gress {
   position: relative;
   width: 100px; 
@@ -8,8 +15,8 @@
   background-position: center;
 }
 
-.gressTop,
-.gressBottom {
+.grsTop,
+.grsBottom {
   position: absolute;
   z-index: 1;
   width: 70.71px;
@@ -23,8 +30,8 @@
 }
 
 /*counter transform the bg image on the caps*/
-.gressTop:after,
-.gressBottom:after {
+.grsTop:after,
+.grsBottom:after {
   content: "";
   position: absolute;
   width: 100.0000px;
@@ -38,23 +45,23 @@
   background: inherit;
 }
 
-.gressTop {
+.grsTop {
   top: -35.3553px;
 }
 
-.gressTop:after {
+.grsTop:after {
   background-position: center top;
 }
 
-.gressBottom {
+.grsBottom {
   bottom: -35.3553px;
 }
 
-.gressBottom:after {
+.grsBottom:after {
   background-position: center bottom;
 }
 
-.hexagon:after {
+.gress:after {
   content: "";
   position: absolute;
   top: 0.0000px;
