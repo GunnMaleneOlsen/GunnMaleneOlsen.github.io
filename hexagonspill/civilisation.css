@@ -10,7 +10,7 @@
   width: 100px; 
   height: 57.74px;
   margin: 28.87px 0;
-  background-image: url(http://www.grassmeup.co.uk/wp-content/themes/GrassMeUp-WP/assets/images/hampton/gmu-hampton-top.jpg);
+  background-image: url(gress.jpg);
   background-size: auto 115.4701px;
   background-position: center;
 }
@@ -62,6 +62,272 @@
 }
 
 .gress:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 100.0000px;
+  height: 57.7350px;
+  z-index: 2;
+  background: inherit;
+}
+.vann {
+  position: relative;
+  width: 100px; 
+  height: 57.74px;
+  margin: 28.87px 0;
+  background-image: url(vann.jpg);
+  background-size: auto 115.4701px;
+  background-position: center;
+}
+
+.vnnTop,
+.vnnBottom {
+  position: absolute;
+  z-index: 1;
+  width: 70.71px;
+  height: 70.71px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 14.64px;
+}
+
+/*counter transform the bg image on the caps*/
+.vnnTop:after,
+.vnnBottom:after {
+  content: "";
+  position: absolute;
+  width: 100.0000px;
+  height: 57.73502691896258px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.vnnTop {
+  top: -35.3553px;
+}
+
+.vnnTop:after {
+  background-position: center top;
+}
+
+.vnnBottom {
+  bottom: -35.3553px;
+}
+
+.vnnBottom:after {
+  background-position: center bottom;
+}
+
+.vann:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 100.0000px;
+  height: 57.7350px;
+  z-index: 2;
+  background: inherit;
+}
+.skog {
+  position: relative;
+  width: 100px; 
+  height: 57.74px;
+  margin: 28.87px 0;
+  background-image: url(skog.jpg);
+  background-size: auto 115.4701px;
+  background-position: center;
+}
+
+.skgTop,
+.skgBottom {
+  position: absolute;
+  z-index: 1;
+  width: 70.71px;
+  height: 70.71px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 14.64px;
+}
+
+/*counter transform the bg image on the caps*/
+.skgTop:after,
+.skgBottom:after {
+  content: "";
+  position: absolute;
+  width: 100.0000px;
+  height: 57.73502691896258px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.skgTop {
+  top: -35.3553px;
+}
+
+.skgTop:after {
+  background-position: center top;
+}
+
+.skgBottom {
+  bottom: -35.3553px;
+}
+
+.skgBottom:after {
+  background-position: center bottom;
+}
+
+.skog:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 100.0000px;
+  height: 57.7350px;
+  z-index: 2;
+  background: inherit;
+}
+
+.ørken {
+  position: relative;
+  width: 100px; 
+  height: 57.74px;
+  margin: 28.87px 0;
+  background-image: url(ørken.jpg);
+  background-size: auto 115.4701px;
+  background-position: center;
+}
+
+.øknTop,
+.øknBottom {
+  position: absolute;
+  z-index: 1;
+  width: 70.71px;
+  height: 70.71px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 14.64px;
+}
+
+/*counter transform the bg image on the caps*/
+.øknTop:after,
+.øknBottom:after {
+  content: "";
+  position: absolute;
+  width: 100.0000px;
+  height: 57.73502691896258px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.øknTop {
+  top: -35.3553px;
+}
+
+.øknTop:after {
+  background-position: center top;
+}
+
+.øknBottom {
+  bottom: -35.3553px;
+}
+
+.øknBottom:after {
+  background-position: center bottom;
+}
+
+.ørken:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 100.0000px;
+  height: 57.7350px;
+  z-index: 2;
+  background: inherit;
+}
+
+.fjell {
+  position: relative;
+  width: 100px; 
+  height: 57.74px;
+  margin: 28.87px 0;
+  background-image: url(fjell.jpg);
+  background-size: auto 115.4701px;
+  background-position: center;
+}
+
+.fjlTop,
+.fjlBottom {
+  position: absolute;
+  z-index: 1;
+  width: 70.71px;
+  height: 70.71px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 14.64px;
+}
+
+/*counter transform the bg image on the caps*/
+.fjlTop:after,
+.fjlBottom:after {
+  content: "";
+  position: absolute;
+  width: 100.0000px;
+  height: 57.73502691896258px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.fjlTop {
+  top: -35.3553px;
+}
+
+.fjlTop:after {
+  background-position: center top;
+}
+
+.fjlBottom {
+  bottom: -35.3553px;
+}
+
+.fjlBottom:after {
+  background-position: center bottom;
+}
+
+.fjell:after {
   content: "";
   position: absolute;
   top: 0.0000px;
