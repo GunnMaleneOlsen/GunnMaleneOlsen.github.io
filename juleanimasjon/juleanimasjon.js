@@ -1,4 +1,4 @@
-
+// @ts-check
 function setup (){ 
     
     let santa = document.getElementById("santa"); 
@@ -7,13 +7,14 @@ function setup (){
 
     let manyGifts= [];
 
+
     function dropgift (event) {
         let px = event.pageX;
         let newGift = document.createElement("div");
         newGift.className = "gift";
         console.log(santa.style.left);
         newGift.style.left = px +"px";
-        newGift.style.opacity = 1;
+        newGift.style.opacity = "1";
         main.appendChild(newGift);
         manyGifts.push(newGift);
         console.log(newGift);
