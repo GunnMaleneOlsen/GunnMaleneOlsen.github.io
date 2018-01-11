@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="oppsum.css">
+    <script src="oppsum.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <br>Forbruk 
+            <select name="forbruk" id="forbruk">
+                <option value="0.8">mercury 4hp</option>
+                <option value="1.3">yamaha 60hp</option>
+                <option value="3.7">evinrude 200hp</option>
+            </select>
+        <br>Tank <input id="tank" type="number"> liter
+        <br><button id="beregn" type="button"> Beregn</button>
+        <p>
+            Rekkevidde =<span id="rekkevidde"></span>
+        </p>
+    </div>
+    <script>
+        setup();
+    </script>
+</body>
+</html>

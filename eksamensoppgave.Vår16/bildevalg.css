@@ -1,0 +1,46 @@
+#ex{
+    
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-image: url("newyork.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 2s;
+
+}
+
+#storpeter {
+    display: none;
+    width: 100vw;
+    height: 100vw;
+    background-image: url("st.petersburg.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 2s;
+}
+
+#ex div{
+    width: 600px;
+    height: 200px;
+
+}
+
+#ex div:nth-child(1){
+    border: solid green 1px;
+
+}
+
+#ex div:nth-child(2){
+   border: solid red 1px;
+   
+   
+}
+
+#ex div:nth-child(3){
+    border: solid blue 1px;
+   
+   
+}
+ 
+
