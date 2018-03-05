@@ -1,0 +1,98 @@
+
+#bg {
+    position: fixed;
+    top: 85%;
+    left: 0%;
+    width: 200%;
+    height: 200%;
+}
+
+#explo {
+    background: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 5;
+    right: 200px;
+    top: 30%;
+    background: url("expo.gif");
+    background-size: contain;
+    animation: exp 2.7s linear forwards;
+    background: single;
+    
+}
+
+#fjell {
+    position: fixed;
+    top: 15%;
+    left: 45%;
+    width: 200%;
+    height: 200%;
+}
+
+#fly {
+    background: url(plane.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    height: 120px;
+    width: 200px;
+    position: absolute;
+    z-index: 5;
+    animation: kjor 7s linear forwards, styrt 0.8s 2s linear forwards;
+    
+}
+
+#stool {
+    
+}
+
+#ball {
+    background: url(ball.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    height: 50px;
+    width: 50px;
+    bottom: 20%;
+    left: 18%;
+    position: absolute;
+    z-index: 7;
+    animation: kick 2s linear forwards;
+}
+
+#gutt {
+    background: url(spark.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    height: 150px;
+    width: 300px;
+    bottom: 10%;
+    position: absolute;
+    z-index: 6;
+}
+
+@keyframes kjor {
+    0% { right: 100%; top: 0%; }
+    100% {right: -100%; top: 200px; }
+
+}
+
+@keyframes styrt {
+    0% { transform: rotate(0deg);top: 0%;opacity: 1;}
+    99% { transform: rotate(40deg); top: 30%;opacity: 1;}
+    100% { transform: rotate(40deg); top: 30%;opacity: 0;}
+}
+
+@keyframes exp {
+    0% { opacity: 0;}
+    99% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+@keyframes kick {
+   0% { left: 18%; bottom: 20%; }
+   10% { transform: rotate(0deg); top: 150%;}
+   100% {left: 100%; top: 150%;}
+  }
